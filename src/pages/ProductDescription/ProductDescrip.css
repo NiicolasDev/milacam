@@ -1,0 +1,108 @@
+.container-descript{
+    padding: 40px 0 40px 0;
+    margin-bottom: 40px;
+    max-width: 1700px;
+    margin: auto;
+}
+
+.container-descript_product{
+    width: 25%;
+}
+.container-descript_product img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-descript_text{
+    padding: 40px 10px 40px 0;
+    width: 40%;
+}
+.available{
+    border: 2px solid #4db350;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4db350;
+    font-weight: bold;
+}
+.fa-check{
+    font-size: 20px;
+    margin: 0 3px 0 3px;
+    position: relative;
+    top: 3px;
+    color: #4db350;
+}
+.title-info{
+    text-transform: uppercase;
+}
+.fa-heart{
+    margin-right: 5px;
+}
+.addFavorite{
+    font-weight: bold;
+    font-size: 14px;
+}
+.box-addCart{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.cart-info{
+    font-size: 20px;
+    margin: 0 8px 0 0;
+}
+.btn-shop-info{
+    padding: 15px;
+    background-color: #4db350 !important;
+    border: 1px solid #4db350 !important;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.price-info{
+    color: #4db350;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1px;
+}
+.price-simbol{
+    font-size: 36px;
+    color: #4db350;
+    text-decoration: none;
+}
+.price-info-normal{
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #4db350;
+
+}
+.price-simbol-nomal{
+    text-decoration: none;
+    color: #4db350;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 970px){
+        .container-descript_text{
+            width: 60%;
+            padding: 20px;
+        }
+        .container-descript_product{
+            width: 30%;
+        }
+}
+@media screen and (max-width: 970px){
+    .container-descript_text{
+        width: 100%;
+        padding: 20px;
+    }
+    .container-descript_product{
+        width: 60%;
+    }
+}

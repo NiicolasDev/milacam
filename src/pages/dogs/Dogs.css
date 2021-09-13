@@ -1,0 +1,146 @@
+.container-dogs {
+    background-color: #fbfbfb;
+    max-width: 1700px;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+
+.container-dogs-filter {
+    width: 40%;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+.container-dogs-products {
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+
+.checkbox-subItem {
+    margin-left: 10px;
+}
+
+.text-filter_dog {
+    color: #990300;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
+}
+
+.container-categories {
+    padding: 30px 20px;
+    background: white;
+    /* border: 1px solid #E1E1E1; */
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 20%);
+}
+
+.paw {
+    color: #990300;
+    font-size: 22px;
+
+}
+
+.container-info-dog {
+    width: 100%;
+    height: 280px;
+    background: url(../../assets/img/Section-dog.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: auto;
+}
+
+.home-link {
+    color: #707070;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.home-link:hover {
+    color: #990300;
+    text-decoration: underline;
+}
+
+.dog-link {
+    color: #707070;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.arrow-right {
+    font-size: 12px;
+    margin: 0 5px 0 5px;
+}
+
+.title-dog-sec {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn-filter {
+    width: 120px;
+    padding: 15px;
+    background-color: #8d231e !important;
+    border: 1px solid #8d231e !important;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    display: none;
+}
+
+@media screen and (max-width: 955px) {
+    .container-dogs-filter {
+        padding: 40px 0 40px 40px;
+    }
+}
+
+@media screen and (max-width: 848px) {
+    .container-dogs-filter {
+        padding: 40px 0 40px 15px;
+    }
+
+    .container-info-dog {
+        background: url(../../assets/img/Section3-dog.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .label-name {
+        font-size: 14px;
+    }
+
+    .container-dogs-filter {
+        width: 33%;
+    }
+
+    .container-categories {
+        padding: 30px 0 30px 20px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .container-dogs-filter {
+        display: none;
+    }
+
+    .btn-filter {
+        display: block;
+        margin: 20px auto 0 auto;
+        z-index: 100;
+    }
+
+    .container-dogs-products {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .container-info-dog {
+        padding: 20px;
+        background: url(../../assets/img/Section2-dog.png);
+        background-repeat: no-repeat;
+        height: 170px;
+    }
+}

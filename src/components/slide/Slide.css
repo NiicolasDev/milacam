@@ -1,0 +1,23 @@
+.container-text-prom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-text-prom p{
+    text-align: center;
+    margin: 10px;
+    color: #999;
+    cursor: pointer;
+}
+.container-text-prom p:hover{
+    text-decoration: underline;
+}
+.slide{
+    padding:0;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 422px){
+    .container-text-prom{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    background: rgb(59, 13, 11);
+    background: linear-gradient(0deg, rgba(114, 25, 21, 0.919) 0%, rgba(186, 9, 0, 1) 100%);
+}
+.cophry{
+    width: 100%;
+    background: #682320;
+    padding: 8px 30px 8px 30px;
+}
+.text-copry{
+    color: white;
+}
+@media screen and (max-width: 390px){
+    .text-copry{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 330px){
+    .text-copry{
+        font-size: 12px;
+    }
+    .cophry{
+        padding: 8px 2px 8px 2px;
+    }
+}

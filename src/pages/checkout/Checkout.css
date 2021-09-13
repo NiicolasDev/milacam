@@ -1,0 +1,187 @@
+.container-checkout{
+    width: 100%;
+    padding: 40px;
+}
+.container-checkout_data{
+    width: 50%;
+    padding: 20px;
+}
+.container-checkout_shopping{
+    width: 30%;
+    padding: 40px;
+    background: #f9f9f9;
+    border: 1px solid #d4d4d4;
+}
+.data-number{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.box-data-addres{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #9c1b15;
+    background-color: #9c1b15;
+}
+.text-addres{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    font-size: 24px;
+}
+.img-receipt{
+    width: 70px;
+    margin: 0 10px 0 0;
+}
+.showItems{
+   transition: all 2s;
+   display: none;
+}
+.text-order{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    color: #9c1b15;
+}
+#show{
+   transition: all 2s;
+}
+.text-subtotal, .subtotal-price{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+.dollar-total{
+    text-decoration: none;
+    margin: 0 3px 0 0;
+}
+.container-items_subtotal{
+    width: 100%;
+    overflow-y: auto;   
+    max-height: 200px;
+}
+.text-total{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.total-price{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+.btn-shop-final{
+    padding: 10px;
+}
+
+.container-items_subtotal::-webkit-scrollbar{
+    width: 7px;
+    background: #f2f2f2;
+}
+.container-items_subtotal::-webkit-scrollbar-thumb{
+    background: #9c1b15;
+    border-radius: 5px;
+}
+.fa-chevron-down{
+    margin: 0 0 0 10px;
+}
+.fa-chevron-up{
+    margin: 0 0 0 10px;
+}
+.hide-arrow{
+    display: inline-block;
+
+}
+.show-arrow{
+    display: none;
+}
+.box-logo{
+    width: 82%;
+    padding-top: 30px;
+    margin: auto;
+}
+.box-logo img{
+    width: 200px;
+}
+.text-cart-shop{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 0 0 5px;
+    font-size: 30px;
+    color: #777777;
+    line-height: 25px;
+}
+.text-cart-shop2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+.container-items-total{
+    position: relative;
+}
+.error-mesage{
+    font-size: 18px;
+    border: 2px solid red;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding: 8px;
+    color: red;
+}
+
+@media screen and (max-width: 1225px){
+    .container-checkout_shopping{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 962px){
+    .container-checkout_shopping{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 770px){
+    .container-checkout_data{
+        width: 100%;
+    }
+    .addresInput{
+        margin-top: 16px;
+    }
+    .container-checkout_shopping {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 670px){
+    .container-checkout_shopping {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 594px){
+    .container-checkout_shopping {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 518px){
+    .container-checkout_shopping {
+        width: 90%;
+    }
+    .text-cart-shop{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 478px){
+    .container-checkout_shopping {
+        width: 100%;
+    }
+    .container-checkout{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 390px){
+    .container-checkout_shopping {
+       padding: 20px;
+    }
+}
+@media screen and (max-width: 360px){
+
+    .text-total{
+        font-size: 17px;
+    }
+}
